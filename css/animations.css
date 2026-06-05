@@ -1,0 +1,12 @@
+ .reveal{
+    opacity:0;
+    transform:translateY(28px);
+    transition:opacity .75s ease, transform .75s ease;
+}
+.reveal.is-visible{
+    opacity:1;
+    transform:translateY(0);
+}
+.feature-card:hover, .glass-card:hover, .timeline__item:hover, .gallery-item:hover img{
+    will-change:transform;
+}

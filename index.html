@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Landing page do projeto acadêmico Barbearia Aurora, desenvolvido em Flutter." />
+    <title>Barbearia Aurora | Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+    <div id="loader" class="loader" aria-hidden="true">
+        <div class="loader__ring"></div>
+        <span>Barbearia Aurora</span>
+    </div>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a class="brand" href="#topo" aria-label="Ir para o topo">
+                <img src="assets/images/logo.png" alt="Logo Barbearia Aurora" class="brand__logo" />
+                <div>
+                    <strong>Barbearia Aurora</strong>
+                    <span>Projeto Flutter</span>
+                </div>
+            </a>
+
+            <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-navegacao">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav" id="menu-navegacao">
+                <a href="#sobre">Sobre</a>
+                <a href="#funcionalidades">Funcionalidades</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#tecnologias">Tecnologias</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#download" class="btn btn--small btn--gold">Baixar APK</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="topo">
+        <section class="hero section">
+            <div class="container hero__grid">
+                <div class="hero__content reveal">
+                    <span class="eyebrow">Projeto acadêmico em Flutter</span>
+                    <h1>Sua experiência de barbearia na palma da mão</h1>
+                    <p>
+                        Uma landing page moderna para apresentar o app <strong>Barbearia Aurora</strong>, desenvolvido como
+                        atividade da disciplina de desenvolvimento de software, com foco em UX/UI, agendamento e experiência premium.
+                    </p>
+                    <div class="hero__actions">
+                        <a class="btn btn--gold" href="#download">Download APK</a>
+                        <a class="btn btn--outline" href="https://github.com/1Dioo/barbearia_app" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+
+                    <div class="hero__stats">
+                        <div><strong>Flutter</strong><span>Interface mobile</span></div>
+                        <div><strong>9</strong><span>Funcionalidades</span></div>
+                        <div><strong>100%</strong><span>Responsivo</span></div>
+                    </div>
+                </div>
+
+                <div class="hero__visual reveal">
+                    <div class="glass-card device-frame">
+                        <img src="assets/images/hero-app.png" alt="Mockup do aplicativo Barbearia Aurora" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="section__heading reveal">
+                    <span class="eyebrow">Sobre o projeto</span>
+                    <h2>Uma solução pensada para demonstrar evolução técnica e visual</h2>
+                </div>
+
+                <div class="content-grid">
+                    <article class="glass-card reveal">
+                        <h3>Objetivo acadêmico</h3>
+                        <p>
+                        O aplicativo foi criado para atender à proposta da disciplina, unindo planejamento de produto,
+                        identidade visual consistente e implementação em Flutter para apresentar uma solução funcional e bem estruturada.
+                        </p>
+                    </article>
+                    <article class="glass-card reveal">
+                        <h3>Contexto da atividade</h3>
+                        <p>
+                        A entrega demonstra organização de telas, fluxo de navegação, persistência simples e atenção ao design,
+                        mostrando como transformar um conceito em um produto digital convincente.
+                        </p>
+                    </article>
+                    <article class="glass-card reveal">
+                        <h3>Benefícios do app</h3>
+                        <p>
+                        O usuário acessa agendamentos, promoções, galeria de cortes, pagamentos e perfil em uma experiência rápida,
+                        elegante e intuitiva, com foco em conveniência e modernidade.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="funcionalidades" class="section section--alt">
+            <div class="container">
+                <div class="section__heading reveal">
+                    <span class="eyebrow">Funcionalidades</span>
+                    <h2>Recursos que tornam a experiência completa</h2>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="feature-card reveal">
+                        <span><i class="fa-solid fa-user-lock"></i></span>
+                        <h3>Cadastro e Login</h3>
+                        <p>Acesso seguro e simplificado para cada usuário.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span><i class="fa-solid fa-user"></i></span>
+                        <h3>Perfil do Usuário</h3>
+                        <p>Informações pessoais organizadas em um só lugar.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span><i class="fa-solid fa-camera"></i></span>
+                        <h3>Upload de Foto</h3>
+                        <p>Personalize o cadastro com imagem do perfil.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span><i class="fa-solid fa-calendar-check"></i></span>
+                        <h3>Agendamento de Cortes</h3>
+                        <p>Reserva prática de horários com poucos toques.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span><i class="fa-solid fa-calendar-days"></i></span>
+                        <h3>Calendário em Português</h3>
+                        <p>Interface localizada para facilitar a navegação.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span><i class="fa-solid fa-tags"></i></span>
+                        <h3>Promoções</h3>
+                        <p>Destaque para ofertas e campanhas especiais.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span><i class="fa-solid fa-crown"></i></span>
+                        <h3>Clube de Assinaturas</h3>
+                        <p>Relacionamento recorrente com vantagens exclusivas.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span><i class="fa-solid fa-credit-card"></i></span>
+                        <h3>Pagamentos Online</h3>
+                        <p>PIX, cartão e carteiras digitais integradas.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span><i class="fa-solid fa-images"></i></span>
+                        <h3>Galeria de Cortes</h3>
+                        <p>Portfólio visual para inspirar novos estilos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="section">
+            <div class="container">
+                <div class="section__heading reveal">
+                    <span class="eyebrow">Galeria do aplicativo</span>
+                    <h2>Visual moderno com navegação ampliada</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <button class="gallery-item reveal" data-full="assets/images/screenshot-1.png"><img src="assets/images/screenshot-1.png" alt="Screenshot 1 do aplicativo"></button>
+                    <button class="gallery-item reveal" data-full="assets/images/screenshot-2.png"><img src="assets/images/screenshot-2.png" alt="Screenshot 2 do aplicativo"></button>
+                    <button class="gallery-item reveal" data-full="assets/images/screenshot-3.png"><img src="assets/images/screenshot-3.png" alt="Screenshot 3 do aplicativo"></button>
+                    <button class="gallery-item reveal" data-full="assets/images/screenshot-4.png"><img src="assets/images/screenshot-4.png" alt="Screenshot 4 do aplicativo"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="section section--alt">
+            <div class="container">
+                <div class="section__heading reveal">
+                    <span class="eyebrow">Tecnologias utilizadas</span>
+                    <h2>Base técnica do aplicativo e da apresentação</h2>
+                </div>
+
+                <div class="tech-grid">
+                    <article class="glass-card tech-card reveal"><h3>Flutter</h3><p>Framework para construção de interfaces nativas multiplataforma.</p></article>
+                    <article class="glass-card tech-card reveal"><h3>Dart</h3><p>Linguagem usada para lógica de telas, estados e interações.</p></article>
+                    <article class="glass-card tech-card reveal"><h3>SharedPreferences</h3><p>Persistência local para configurações e dados simples.</p></article>
+                    <article class="glass-card tech-card reveal"><h3>Material Design</h3><p>Sistema visual com padrões claros, acessíveis e modernos.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section__heading reveal">
+                    <span class="eyebrow">Processo de desenvolvimento</span>
+                    <h2>Da ideia à apresentação final</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline__item reveal"><span>1</span><div><h3>Planejamento</h3><p>Definição do escopo, telas e funcionalidades principais.</p></div></div>
+                    <div class="timeline__item reveal"><span>2</span><div><h3>Design</h3><p>Criação da identidade visual escura com detalhes dourados.</p></div></div>
+                    <div class="timeline__item reveal"><span>3</span><div><h3>Desenvolvimento</h3><p>Implementação das telas, fluxo e componentes em Flutter.</p></div></div>
+                    <div class="timeline__item reveal"><span>4</span><div><h3>Testes</h3><p>Validação de navegação, responsividade e usabilidade.</p></div></div>
+                    <div class="timeline__item reveal"><span>5</span><div><h3>Apresentação</h3><p>Preparação do material final para entrega acadêmica.</p></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipe" class="section section--alt">
+            <div class="container">
+                <div class="section__heading reveal">
+                    <span class="eyebrow">Equipe</span>
+                    <h2>Integrantes do projeto</h2>
+                </div>
+
+                <div class="team-grid">
+                    <article class="glass-card team-card reveal"><div class="avatar">A</div><h3>Integrante 01</h3><p>Desenvolvimento e arquitetura</p></article>
+                    <article class="glass-card team-card reveal"><div class="avatar">B</div><h3>Integrante 02</h3><p>UI/UX e prototipação</p></article>
+                    <article class="glass-card team-card reveal"><div class="avatar">C</div><h3>Integrante 03</h3><p>Conteúdo e apresentação</p></article>
+                    <article class="glass-card team-card reveal"><div class="avatar">D</div><h3>Integrante 04</h3><p>Testes e refinamento</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="section cta-section">
+            <div class="container">
+                <div class="cta-card glass-card reveal">
+                    <span class="eyebrow">Download APK</span>
+                    <h2>Baixe a versão de demonstração e veja o projeto em ação</h2>
+                    <p>Ideal para apresentação em sala, revisão técnica e publicação no GitHub Pages.</p>
+                    <div class="hero__actions">
+                        <a class="btn btn--gold" href="#" download>Baixar APK</a>
+                        <a class="btn btn--outline" href="https://github.com/1Dioo/barbearia_app" target="_blank" rel="noopener noreferrer">Acessar GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p><strong>Barbearia Aurora</strong> — 2026</p>
+            <p>Disciplina de Desenvolvimento de Software</p>
+            <p>Créditos da equipe do projeto</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button id="lightboxClose" class="lightbox__close" aria-label="Fechar imagem">×</button>
+        <img id="lightboxImage" src="" alt="Imagem ampliada">
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

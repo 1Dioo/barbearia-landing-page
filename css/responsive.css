@@ -1,0 +1,134 @@
+@media (min-width: 768px) {
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .hero__grid {
+        grid-template-columns: 1.05fr .95fr;
+        align-items: center;
+    }
+
+    .content-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .tech-grid,
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cta-card {
+        padding: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section {
+        padding: 120px 0;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tech-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .timeline {
+        max-width: 920px;
+        margin-inline: auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .nav {
+        position: absolute;
+        left: 1rem;
+        right: 1rem;
+        top: 100%;
+        display: grid;
+        gap: .5rem;
+        padding: 1rem;
+        margin-top: .75rem;
+        background: rgba(15, 15, 15, .96);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        box-shadow: var(--shadow);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        pointer-events: none;
+        transition: .25s ease;
+    }
+
+    .nav.is-open {
+        transform: scaleY(1);
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .nav a {
+        padding: .65rem .85rem;
+        border-radius: 12px;
+    }
+
+    .nav a:hover {
+        background: rgba(255, 255, 255, .04);
+    }
+
+    .hero__stats {
+        grid-template-columns: 1fr;
+    }
+
+    .device-frame {
+        transform: none;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding-top: 112px;
+    }
+
+    .hero__content h1 {
+        font-size: 2.35rem;
+    }
+
+    .section {
+        padding: 76px 0;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero__actions,
+    .cta-card .hero__actions {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

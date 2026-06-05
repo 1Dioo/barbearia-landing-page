@@ -1,3 +1,5 @@
+> Observação: alguns dispositivos podem exibir avisos de segurança ao instalar o APK por ele não estar distribuído pela Google Play Store. O aplicativo foi desenvolvido para fins educacionais e é seguro para utilização.
+
 # Barbearia Aurora — Landing Page
 
 Landing page responsiva, mobile-first e sem frameworks para apresentar o projeto acadêmico **Barbearia Aurora**, desenvolvido em Flutter.

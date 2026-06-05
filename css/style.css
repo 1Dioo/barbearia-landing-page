@@ -56,10 +56,6 @@ input {
     position: relative;
 }
 
-.section--alt {
-    background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
-}
-
 .section__heading {
     max-width: 760px;
     margin-bottom: 32px;

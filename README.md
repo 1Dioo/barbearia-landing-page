@@ -1,12 +1,12 @@
 > Observação: alguns dispositivos podem exibir avisos de segurança ao instalar o APK por ele não estar distribuído pela Google Play Store. O aplicativo foi desenvolvido para fins educacionais e é seguro para utilização.
 
-# Barbearia Aurora — Landing Page
+# Royal Barber — Landing Page
 
-Landing page responsiva, mobile-first e sem frameworks para apresentar o projeto acadêmico **Barbearia Aurora**, desenvolvido em Flutter.
+Landing page responsiva, mobile-first e sem frameworks para apresentar o projeto acadêmico **Royal Barber**, desenvolvido em Flutter.
 
 ## Sobre o projeto
 
-A Barbearia Aurora é um aplicativo mobile criado como projeto acadêmico para demonstrar boas práticas de desenvolvimento, interface moderna e experiência do usuário.
+A Royal Barber é um aplicativo mobile criado como projeto acadêmico para demonstrar boas práticas de desenvolvimento, interface moderna e experiência do usuário.
 
 ## Tecnologias utilizadas
 
